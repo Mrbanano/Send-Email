@@ -18,6 +18,7 @@ body {
   content: "";
 }
 header {
+  border: 3px solid green;
   padding: 10px;
   text-align: center;
   color: white;
@@ -25,7 +26,14 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
 }
+.row {
+  border: 3px solid pink;
+}
+#contenido {
+  border: 3px solid blue;
+}
 form {
+  border: 3px solid red;
   margin: 30px 0;
 }
 #loaders {
