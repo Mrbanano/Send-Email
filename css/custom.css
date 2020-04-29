@@ -1,8 +1,12 @@
 body {
-  /*background: #43cea2;
-    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
-    background: linear-gradient(to right, #185a9d, #43cea2); */
-  background-color: #eeeeee;
+  height: 100vh;
+  background-image: linear-gradient(
+    -20deg,
+    #ddd6f3 0%,
+    #faaca8 100%,
+    #faaca8 100%
+  );
+  background: #faaca8;
 }
 #contenido {
   background-color: white;
@@ -18,7 +22,6 @@ body {
   content: "";
 }
 header {
-  border: 3px solid green;
   padding: 10px;
   text-align: center;
   color: white;
@@ -26,14 +29,8 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
 }
-.row {
-  border: 3px solid pink;
-}
-#contenido {
-  border: 3px solid blue;
-}
+
 form {
-  border: 3px solid red;
   margin: 30px 0;
 }
 #loaders {
